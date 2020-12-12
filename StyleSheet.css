@@ -8,12 +8,10 @@ body {
 
 
 h1 { 
-        margin: 0 0 16px 0; 
-        padding: 0 0 16px 0; 
-        font-size: 42px; 
-        font-weight: bold; 
+        font-family: 'Comfortaa', cursive;
+        
+        font-size: 3rem; 
         letter-spacing: -2px; 
-        border-bottom: 1px solid #999; 
 }
 h3 { 
         font-size: 20px; 
@@ -22,6 +20,7 @@ h3 {
 }
 p { 
         margin: 0 0 16px 0; 
+        font-size: 1.2rem;
 }
 a {
          color: #404040; 
@@ -61,7 +60,7 @@ dd {
         line-height: 1.5;
         background-color: #16ea66;
         color: #262626;
-        padding: 5% 5% 0% 20%;
+        padding: 30% 5% 0% 20%;
 }
 .about
 {
@@ -88,7 +87,7 @@ dd {
 {
            position: absolute;
  
-        height: 347px;
+        height: 20rem;
         width: auto;
         clip-path: polygon(-34% 66%, 51% 0%, 82% 48%, 28% 74%);
 }
@@ -103,3 +102,18 @@ dd {
         color:#b6ea16;
 }
 
+@media screen and (max-width: 1060px) {
+        .me{
+                height:10rem ;
+        }
+}
+@media screen and (max-width: 490px) {
+        .me{
+                height:5rem ;
+        }
+}
+.me:hover{
+        clip-path: polygon(-34% 9%, 79% 0%, 70% 81%, 60% 74%);
+
+ 
+}
