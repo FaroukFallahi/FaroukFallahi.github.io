@@ -88,7 +88,7 @@ dd {
         position: absolute;
          height: 20rem;
         width: auto;
-        clip-path: polygon(-34% 9%, 79% 0%, 70% 81%, 60% 74%);
+        clip-path: circle(120px at 120px 120px);
         
        }
 
@@ -111,7 +111,4 @@ dd {
         .me{
                 height:5rem ;
         }
-}
-.me:hover{
-        clip-path: polygon(-34% 66%, 51% 0%, 82% 48%, 28% 74%); 
 }
